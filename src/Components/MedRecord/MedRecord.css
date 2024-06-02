@@ -1,0 +1,80 @@
+.med-records{
+    display: flex;
+    font-family: Roboto;
+    width: fit-content;
+    height: 80%;
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.med-records h1{
+    display: flex;
+    font-size: 18px;
+    margin: 20px;
+}
+.med-records button{
+    font-size: 18px;
+    margin: 20px;
+    width: 210px;
+    height: 45px;
+    color: white;
+    background-color: rgba(5, 96, 182, 0.925);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.med-records button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.records{
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    margin: 66px 0;
+}
+.record{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 150px;
+    font-size: 20px;
+    background: #d8dada;
+    border-radius: 12px;
+}
+.record h2{
+    display: grid;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    margin-top: -60px;  
+}
+.record h3{
+    margin-top: -100px;
+}
+.record p{
+    display: grid;
+    text-align: center;
+}
+.record span{
+    display: grid;
+    font-weight: 600;
+}
+.icon{
+    display: flex;
+    width: 45px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.eye{
+    color: rgba(5, 96, 182, 0.925);
+}
+.trash{
+    color: red;
+}

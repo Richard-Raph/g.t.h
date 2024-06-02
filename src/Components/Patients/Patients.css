@@ -1,0 +1,59 @@
+.patient{
+    display: grid;
+    width: fit-content;
+    height: 80%;
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.patient h1{
+    display: flex;
+    font-size: 18px;
+}
+.patient-details{
+    display: grid;
+    text-align: center;
+}
+.patient-detail{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 8px;
+}
+.patient-detail h1{
+    display: flex;
+    font-size: 24px;
+}
+.patient-detail p{
+    display: flex;
+    font-size: 24px;
+}
+.med-record{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    font-family: Cambria, Cochin;
+    background: #d8dada;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.med-record:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.icons{
+    color: #2c2b2b;
+    margin: 18px;
+}
+.med-record p{
+    font-size: 20px;
+    font-weight: 500;
+}
