@@ -9,6 +9,7 @@ import people from "../../Assets/people.png"
 import healthicon from "../../Assets/healthicon.png"
 import data from "../../Assets/data.png"
 
+
 function NavBar() {
 
   
