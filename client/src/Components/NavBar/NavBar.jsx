@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./navbar.module.css"
-import logo from "../../Assets/logo.png"
-import analytics from "../../Assets/analytics.png"
-import blog from "../../Assets/blog.png"
-import home from "../../Assets/home.png"
-import people from "../../Assets/people.png"
-import healthicon from "../../Assets/healthicon.png"
-import data from "../../Assets/data.png"
+import logo from "../../assets/logo.png"
+import analytics from "../../assets/analytics.png"
+import blog from "../../assets/blog.png"
+import home from "../../assets/home.png"
+import people from "../../assets/people.png"
+import healthicon from "../../assets/healthicon.png"
+import data from "../../assets/data.png"
 
 
 function NavBar() {
