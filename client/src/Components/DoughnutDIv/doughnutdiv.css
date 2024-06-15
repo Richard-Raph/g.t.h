@@ -1,0 +1,57 @@
+.doughnut-container {
+    font-family: "montserrat", sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 17px 0;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px rgb(222, 220, 220);
+    z-index: 999;
+}
+
+.doughnut-align {
+    position: relative; 
+    width: 130px;
+    height: 130px;
+    margin-bottom: 4px;
+}
+
+.doughnut-align1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dropdown-menu {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-menu select {
+    background-color: rgb(229, 226, 226);
+    margin-bottom: 2px;
+    font-size: 9px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.dropdown-menu option {
+   font-size: 10px; 
+}
+
+.select1 {
+    color: #20C997;
+}
+
+.select2 {
+    color: #EB5757; 
+}

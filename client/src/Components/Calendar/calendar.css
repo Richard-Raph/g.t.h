@@ -1,0 +1,51 @@
+.calendar-container {
+  background-color: white;
+  padding: 0 14px 12px 14px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px rgb(207, 203, 203);
+  z-index: 999;
+}
+
+.calendar-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  margin-top: -8px;
+  font-weight: 700;
+}
+
+.calendar-align img {
+  width: 20px;
+}
+
+.calendar-align1 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for each day of the week */
+  gap: 2px; /* gap between grid items */
+  font-size: 9px;
+  margin-top: -7px;
+  
+}
+
+.calendar-align2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  color: #20C997;
+}
+
+.calendar-align3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.today {
+  background-color: #110F7A;
+  color: white;
+  border-radius: 3px;
+}

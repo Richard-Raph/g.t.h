@@ -1,0 +1,67 @@
+.transaction-container {
+    margin-top: 3%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Optional: To remove spacing between cells */
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+th, td {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.child, .child2 {
+    display: flex;
+    align-items: center;
+}
+
+.child img {
+    width: 20px;
+    height: 20px;
+}
+
+thead {
+    background-color: rgb(220, 217, 217);
+}
+
+th {
+    font-weight: 700;
+}
+
+td {
+    margin: -10px 0;
+}
+
+td:nth-child(4),  td:nth-child(6) {
+    color: rgb(134, 131, 131);
+}
+
+td:nth-child(5) {
+    color: #20C997;
+}
+
+td:nth-child(1) {
+    gap: 5px;
+}
+
+td:last-child {
+    gap: 15px;
+}
+/* Align the last column to the right */
+ th:last-child, td:last-child {
+    justify-content: flex-end;
+}
+
+ td:nth-child(4) {
+    justify-content: flex-start; 
+}
