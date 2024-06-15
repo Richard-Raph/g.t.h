@@ -1,51 +1,58 @@
 import React from 'react'
-import styles from "./analytics.module.css"
-import arrow from "../../Assets/completearrow.png"
-import person from "../../Assets/person.png"
-import notification from "../../Assets/notification.png"
+import "./analytics.css"
+import arrow from "../../assets/completearrow.png"
+import person from "../../assets/person.png"
+import notification from "../../assets/notification.png"
 import BarChart from '../../Components/BarChart/BarChart'
 import BreakDown from '../../Components/BreakDown/BreakDown'
+import DonoughtDiv from '../../Components/DoughnutDIv/DoughnutDiv'
+import Calender from '../../Components/Calendar/Calendar'
+import Transaction from '../../Components/Transaction/Transaction'
 
 
 
 function Analytics() {
   return (
-    <div className={styles.container}>
+    <main className='analytics-container'>
       
-      <input className={styles.search}
+      <input className='analytics-search'
         type='text'
         placeholder='Search...'/>
 
-      <div style={{display: 'flex', justifyContent: 'space-between'}}>
+      <section style={{display: 'flex', justifyContent: 'space-between'}}>
 
-        <div className={styles.financial}>
+        <div className='analytics-financial'>
           <img src={arrow} alt='navigation arrow'/>
           <p>Financial Analysis</p>
         </div>
         
-        <div className={styles.notification}>
+        <div className='analytics-notification'>
           <img src={notification} alt='notification icon'/>
           <img src={person} alt='person icon'/>
           <p>Dr Samuel.A</p>
         </div>
 
-      </div>
+      </section>
 
-      <div>
+      <section className='analytics-align'>
 
-        <div>
+        <div className='analytics-align1'>
          <BreakDown />
          <BarChart />
         </div>
 
-        <div>
-         <div></div>
-         <div></div>
+        <div className='analytics-align2'>
+         <DonoughtDiv />
+         <Calender />
         </div>
 
-      </div>
+      </section>
+
+      <section>
+        <Transaction />
+      </section>
   
-        </div>
+        </main>
   )
 }
 

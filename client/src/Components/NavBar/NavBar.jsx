@@ -58,7 +58,7 @@ function NavBar() {
   ]
 
   return (
-    <main className={styles.container}>
+    <navbar className={styles.container}>
         <div className={styles.logo}>
           <img src={logo} alt='HMB Logo' />
         </div>
@@ -82,7 +82,7 @@ function NavBar() {
             </li>
           ))}
         </ul>
-        </main>
+        </navbar>
   )
 }
 
